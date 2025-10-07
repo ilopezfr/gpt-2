@@ -1,3 +1,37 @@
+# GPT-2 Playground (2019)
+
+> **About this fork**
+>
+> This fork adds a simple, no-code **chat interface** for GPT-2 — one of the earliest ways to talk to a large language model, before ChatGPT existed.
+>  
+> Built as a **Google Colab notebook**, it allowed anyone to spin up GPT-2 in minutes without installation or programming, helping popularize hands-on experimentation with LLMs.  
+>  
+> Created by **Ignacio G. López-Francos**, later featured in *The Economist*’s “The World in 2020” special edition.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ilopezfr/gpt-2/blob/master/gpt-2-playground_.ipynb)
+
+---
+
+## GPT-2 Playground
+
+A browser-based, interactive chat notebook for experimenting with GPT-2 models released by OpenAI.
+
+**Features**
+- **Zero setup:** open the notebook in Colab, press *Run all*, and start chatting.
+- **Accessible:** designed for non-coders, with clear cell annotations and UI prompts.
+- **Configurable:** choose model size (small–XL), adjust sampling parameters (`temperature`, `top-k`, `top-p`), and set custom prompts.
+- **Reproducible:** runs entirely from this repository with pinned dependencies inside the notebook.
+
+**Quick Start**
+1. Click the *Open in Colab* badge above.  
+2. In Colab, choose **Runtime → Run all**.  
+3. Select a model size and start interacting with GPT-2 in the chat cell.  
+
+> *Tip:* Free Colab GPUs handle up to the 774M model comfortably; the 1.5B model may require Colab Pro or a local GPU runtime.
+
+---
+# Original OpenAI README (unchanged)
+
 **Status:** Archive (code is provided as-is, no updates expected)
 
 # gpt-2
